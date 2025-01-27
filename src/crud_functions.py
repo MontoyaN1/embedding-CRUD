@@ -5,14 +5,12 @@ import streamlit as st
 import time
 import re
 import logging
-
-
 from huggingface_hub import InferenceClient
 
 # Inicilizamos ChromaDb y nuestra API KEY
 client = chromadb.EphemeralClient()
 collection = client.get_or_create_collection(name="hf_text_collection")
-API_KEY = st.secrets.HF_API_KEY
+API_KEY = "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"
 _client = None
 
 
