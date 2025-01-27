@@ -1,0 +1,11 @@
+chromadb
+streamlit
+PyPDF2
+python-docx
+sentence-transformers
+SentencePiece
+torch
+numpy
+uuid
+requests
+logging
