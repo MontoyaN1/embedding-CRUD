@@ -222,6 +222,8 @@ Dicha transformación se usa tanto con los documentos y con los temas o palabras
 
 La idea principal con la que se moldeo la aplicación se puede resumir en el siguiente diagrama de flujo:
 
+![alt text](img/image5.png)
+![alt text](img/image6.png)
 
 
 ## Experiencia de desarrollo
