@@ -70,7 +70,7 @@ def view_documents():
         resultados = collection.get(include=["documents", "metadatas", "embeddings"])
 
         if not resultados["ids"]:
-            st.warning("La base de datos está vacía")
+            st.warning("No se han cargado documentos")
             return
 
         # Crear tarjetas para cada documento
